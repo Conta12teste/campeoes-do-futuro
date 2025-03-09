@@ -540,7 +540,124 @@ nav ul li a:hover {
 footer {
     background-color: #FFD700;
     color: #000;
-}
-
-
+}<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeões do Futuro</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #FFD700;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFD700;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('https://source.unsplash.com/1600x900/?jiu-jitsu') no-repeat center center/cover;
+            color: #FFD700;
+        }
+        #hero h2 {
+            font-size: 3em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #FFD700;
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #E6C200;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #FFD700;
+            text-align: center;
+            padding: 20px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Campeões do Futuro</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#treinos">Treinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Entre para o mundo do Jiu-Jitsu</h2>
+        <p>Aprenda, evolua e se torne um campeão.</p>
+        <a href="#contato" class="btn">Comece agora</a>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>O projeto Campeões do Futuro foi fundado em 2018 por Gesilvânio Lima, mais conhecido como Cigano. Atualmente, contamos com academias na Nova Vitória e na Gleba E.</p>
+        <p>Nosso projeto busca divulgar o Jiu-Jitsu, atrair novos praticantes e fortalecer a comunidade do esporte.</p>
+    </section>
+    
+    <section id="treinos">
+        <h2>Treinos</h2>
+        <p>Confira nossos horários e venha treinar conosco.</p>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Siga-nos no Instagram: <a href="https://www.instagram.com/campeoes_fight" target="_blank">@campeoes_fight</a></p>
+        <p>Entre em contato pelo WhatsApp.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Campeões do Futuro - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
 
